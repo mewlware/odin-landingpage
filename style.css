@@ -12,6 +12,14 @@ ul {
     margin: 0;
 }
 
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 ul {
     list-style-type: none;
 }
@@ -22,6 +30,10 @@ h1 {
 
 p {
     font-size: 22px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .header {
@@ -37,7 +49,6 @@ p {
 }
 
 .footer {
-    max-width: 65%;
     padding: 32px 17.5%;
     text-align: center;
     background-color: lightsalmon;
@@ -87,6 +98,8 @@ section.cta {
 
 .introduction div {
     align-self: center;
+    display: flex;
+    flex-direction: column;
 }
 
 h1.title {
@@ -100,13 +113,16 @@ p.subtitle {
 .intro-photo {
     max-width: 500px;
     height: auto;
+    border-radius: 24px;
 }
 
-.signupbtn1 {
+a.signupbtn1 {
     width: min-content;
     white-space: nowrap;
-    padding: 12px 24px;
-    border: solid 1px black;
+    padding: 18px 24px;
+    border-radius: 12px;
+    background-color: white;
+    color: rgb(172, 82, 97);
 }
 
 .extra-info-title {
@@ -125,10 +141,15 @@ p.subtitle {
 }
 
 .extra-info-photo {
+    width: 16vw;
+    height: 16vw;
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;
+    object-position: 50% 70%;
     margin-bottom: 12px;
+    border-radius: 16px;
+    border: pink solid 4px;
 }
 
 p.quote {
@@ -148,6 +169,7 @@ footer.quote-source {
     display: flex;
     justify-content: space-between;
     gap: 150px;
+    border-radius: 24px;
 }
 
 .cta-title {
@@ -155,14 +177,16 @@ footer.quote-source {
     margin-bottom: 12px;
 }
 
-.signupbtn2 {
-    border: black 1px solid;
+a.signupbtn2 {
+    border-radius: 16px;
     align-self: center;
     text-align: center;
     width: min-content;
     white-space: nowrap;
     height: min-content;
-    padding: 10px 20px;
+    padding: 18px 24px;
+    background-color: rgb(255, 214, 220);
+    color:rgb(194, 106, 121);
 }
 
 .footer p {
