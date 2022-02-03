@@ -1,4 +1,5 @@
-@import url();
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap');
 
 /* Resetting default margins and paddings */
 body,
@@ -26,6 +27,14 @@ ul {
 
 h1 {
     font-size: 56px;
+}
+
+h1, h2, .logo{
+    font-family: 'Jua', sans-serif;
+}
+
+p, a, li, figcaption, footer {
+    font-family: 'Nunito', sans-serif;
 }
 
 p {
@@ -158,8 +167,9 @@ p.quote {
     margin-bottom: 36px;
 }
 
-footer.quote-source {
+p.quote-source {
     text-align: right;
+    font-weight: 700;
 }
 
 .cta-container {
