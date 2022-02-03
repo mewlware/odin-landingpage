@@ -85,8 +85,8 @@ main section {
 section.introduction {
     background-color: lightpink;
     gap: 56px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 84px;
+    padding-bottom: 84px;
 }
 
 section.extra-info {
@@ -200,5 +200,6 @@ a.signupbtn2 {
 }
 
 .footer p {
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 700;
 }
