@@ -1,0 +1,170 @@
+@import url();
+
+/* Resetting default margins and paddings */
+body,
+figure,
+blockquote,
+p,
+h1,
+h2,
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+p {
+    font-size: 22px;
+}
+
+.header {
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 17.5%;
+}
+
+.main {
+    margin: 0;
+}
+
+.footer {
+    max-width: 65%;
+    padding: 32px 17.5%;
+    text-align: center;
+    background-color: lightsalmon;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.logo {
+    font-size: 28px;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+main section {
+    display: flex;
+    padding: 0 17.5%;
+}
+
+section.introduction {
+    background-color: lightpink;
+    gap: 56px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+section.extra-info {
+    flex-direction: column;
+    padding-top: 56px;
+    padding-bottom: 100px;
+}
+
+section.quote-container {
+    background-color: lightpink;
+    padding: 56px 25%;
+}
+
+section.cta {
+    padding-top: 84px;
+    padding-bottom: 84px;
+}
+
+.introduction div {
+    align-self: center;
+}
+
+h1.title {
+    margin-bottom: 24px;
+}
+
+p.subtitle {
+    margin-bottom: 24px;
+}
+
+.intro-photo {
+    max-width: 500px;
+    height: auto;
+}
+
+.signupbtn1 {
+    width: min-content;
+    white-space: nowrap;
+    padding: 12px 24px;
+    border: solid 1px black;
+}
+
+.extra-info-title {
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.extra-info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.extra-info-container article {
+    max-width: 24%;
+    text-align: center;
+}
+
+.extra-info-photo {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+p.quote {
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 36px;
+}
+
+footer.quote-source {
+    text-align: right;
+}
+
+.cta-container {
+    width: 100%;
+    background-color:darksalmon;
+    padding: 36px 128px;
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.cta-title {
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.signupbtn2 {
+    border: black 1px solid;
+    align-self: center;
+    text-align: center;
+    width: min-content;
+    white-space: nowrap;
+    height: min-content;
+    padding: 10px 20px;
+}
+
+.footer p {
+    font-size: 16px;
+}
